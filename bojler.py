@@ -10,7 +10,7 @@ def motor_on(pin):
 def motor_off(pin):
     GPIO.output(pin, GPIO.LOW)  # Turn motor off
 	
-response = requests.get("https://www.solaxcloud.com/proxyApp/proxy/api/getRealtimeInfo.do?tokenId=202207161542249917581112&sn=SXBQKMNEDD")
+response = requests.get("https://www.solaxcloud.com/proxyApp/proxy/api/getRealtimeInfo.do?tokenId=?????????????&sn=?????????????")
 #response.content()
 r = response.json()
 vykon = r['result']['acpower']
